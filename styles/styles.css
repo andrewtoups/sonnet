@@ -10,7 +10,7 @@
 
 span {
   width: 50%;
-  margin: 40px 0 0 0;
+  margin: 40px 0 0;
   padding: 10px 0;
   float: left;
   white-space: pre-wrap; }
@@ -23,15 +23,25 @@ span {
   background: lightpink;
   border-left: thin solid blue;
   font-family: monospace; }
-  #sonnet-stats span {
-    font-family: monospace; }
+  #sonnet-stats p {
+    margin: 0 55% -9px 0; }
+    #sonnet-stats p .info {
+      text-align: right;
+      font-family: monospace;
+      font-size: 14px;
+      float: none;
+      display: table-cell;
+      width: 90%;
+      text-transform: capitalize; }
 
 #calculate {
-  width: 100px;
+  width: 140px;
+  height: 70px;
   margin: 10px 50%;
   background: darkorange;
   outline: none;
   border: none;
-  border-radius: 4px; }
+  border-radius: 4px;
+  font-size: 30px; }
 
 /*# sourceMappingURL=styles.css.map */
